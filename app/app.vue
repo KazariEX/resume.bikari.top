@@ -46,7 +46,7 @@
             <project-experience
                 name="vuejs/language-tools"
                 role="核心贡献者"
-                from="2020.10"
+                from="2024.08"
                 link="https://github.com/vuejs/language-tools"
             >
                 <p>Vue.js 官方语言工具，为 VSCode、WebStorm 等代码编辑器提供语言服务器支持。</p>
@@ -54,7 +54,7 @@
                 <ol m="l-4">
                     <li>使用解构属性（Destructured Props）时的嵌入提示；</li>
                     <li>指令及其参数与修饰符的智能提示和类型检查；</li>
-                    <li><code>$attrs</code> <code>$el</code> 等模板内特殊变量、<code>useCssModule</code> 等可组合项的的自动类型推导；</li>
+                    <li><code>$attrs</code> <code>$el</code> 等模板内特殊变量、<code>useCssModule</code> 等可组合项的自动类型推导；</li>
                     <li>对全局组件使用前往定义（Goto Definition）时跳过类型声明文件，直接导航到组件文件等。</li>
                 </ol>
                 <p>以及大量的错误修复与代码重构，致力于为用户提供更好的开发体验。</p>
@@ -66,7 +66,7 @@
                 link="https://github.com/KazariEX/plain-shiki"
             >
                 <p>使用 Shiki + CSS Custom Highlight API，对纯文本容器中的代码文字进行高亮显示。</p>
-                <p>搭配 contenteditable="plaintext-only" 可实现最轻量的代码编辑器。</p>
+                <p>搭配 <code>contenteditable="plaintext-only"</code> 可实现最轻量的代码编辑器。</p>
                 <p>采用 Diff 算法确保正确的最小化更新，显著优化编辑大段代码时的性能。</p>
             </project-experience>
             <project-experience
