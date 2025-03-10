@@ -1,7 +1,8 @@
 <template>
     <article
-        w="172"
+        max-w="176"
         m="x-auto y-8"
+        p="x-4"
         text="3.5"
     >
         <header>
@@ -12,21 +13,21 @@
                 leading="12"
                 text="10 center"
             >葛</h1>
-            <ul grid="~ cols-2">
+            <ul columns="2 lt-sm:1">
                 <header-item title="GitHub" icon="fa6-brands:github">
                     KazariEX
-                </header-item>
-                <header-item title="学校" icon="fa6-solid:school">
-                    杭州电子科技大学
                 </header-item>
                 <header-item title="邮箱" icon="fa6-solid:envelope">
                     <external-link to="mailto:zinkawaii@qq.com">zinkawaii@qq.com</external-link>
                 </header-item>
-                <header-item title="学历" icon="fa6-solid:user-graduate">
-                    本科（2026 届，软件工程）
-                </header-item>
                 <header-item title="网站" icon="fa6-solid:globe">
                     <external-link to="https://bikari.top"/>
+                </header-item>
+                <header-item title="学校" icon="fa6-solid:school">
+                    杭州电子科技大学
+                </header-item>
+                <header-item title="学历" icon="fa6-solid:user-graduate">
+                    本科（2026 届，软件工程）
                 </header-item>
                 <header-item title="团队" icon="fa6-solid:user-group">
                     Vue.js
