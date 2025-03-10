@@ -13,6 +13,13 @@ html {
     color-scheme: light dark;
 }
 
-p {
-    line-height: 1.616em;
+p, li {
+    line-height: 1.714em;
+}
+
+code {
+    padding-inline: 0.3rem;
+    border-radius: 0.25rem;
+    background-color: rgb(128 128 128 / 20%);
+    font-family: consolas;
 }

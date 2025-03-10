@@ -15,7 +15,9 @@ const { to = "至今" } = defineProps<{
             <span text="slate">{{ role }}</span>
             <span m="l-auto">{{ from }} - {{ to }}</span>
         </p>
-        <external-link leading="normal" :to="link">{{ link }}</external-link>
-        <p m="t-1"><slot></slot></p>
+        <p m="b-1">
+            <external-link leading="normal" :to="link">{{ link }}</external-link>
+        </p>
+        <slot></slot>
     </div>
 </template>

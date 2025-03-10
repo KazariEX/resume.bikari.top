@@ -1,15 +1,15 @@
 <template>
     <article
-        h="240"
-        aspect-ratio="0.707"
-        m="x-auto"
+        w="172"
+        m="x-auto y-8"
         text="3.5"
     >
         <header>
             <h1
                 m="b-4"
+                p="b-4"
                 b-b="1 solid slate-300"
-                leading="20"
+                leading="12"
                 text="10 center"
             >葛</h1>
             <ul grid="~ cols-2">
@@ -35,10 +35,10 @@
         </header>
         <article-section title="专业技能">
             <ul p="l-6">
-                <li><p>深入理解 Vue.js 及其核心生态（Nuxt、Vue Router、Pinia 等），熟悉 PrimeVue、Radix Vue 等主流 UI 组件库，掌握 PostCSS、Sass 等 CSS 预处理器，以及 UnoCSS 等原子 CSS 框架；</p></li>
-                <li><p>熟悉 Rollup、Vite 等现代构建工具，熟练使用 Git 版本控制，拥有良好的代码管理习惯；</p></li>
-                <li><p>熟悉 Node.js 等 JavaScript 运行时环境，能够进行简单的后端开发；</p></li>
-                <li><p>热爱开源并持续为开源社区做贡献。</p></li>
+                <li>深入理解 Vue.js 及其核心生态（Nuxt、Vue Router、Pinia 等），熟悉 PrimeVue、Radix Vue 等主流 UI 组件库，掌握 PostCSS、Sass 等 CSS 预处理器，以及 UnoCSS 等原子 CSS 框架；</li>
+                <li>熟悉 Rollup、Vite 等现代构建工具，熟练使用 Git 版本控制，拥有良好的代码管理习惯；</li>
+                <li>熟悉 Node.js 等 JavaScript 运行时环境，能够进行简单的后端开发；</li>
+                <li>热爱开源并持续为开源社区做贡献。</li>
             </ul>
         </article-section>
         <article-section title="项目经历">
@@ -48,7 +48,15 @@
                 from="2020.10"
                 link="https://github.com/vuejs/language-tools"
             >
-                Vue.js 官方语言工具，为 VSCode、WebStorm 等代码编辑器提供语言服务器支持。
+                <p>Vue.js 官方语言工具，为 VSCode、WebStorm 等代码编辑器提供语言服务器支持。</p>
+                <p>持续为 Vue.js 的核心功能贡献类型相关的特性与修复，如：</p>
+                <ol m="l-4">
+                    <li>使用解构属性（Destructured Props）时的嵌入提示；</li>
+                    <li>指令及其参数与修饰符的智能提示和类型检查；</li>
+                    <li><code>$attrs</code> <code>$el</code> 等模板内特殊变量、<code>useCssModule</code> 等可组合项的的自动类型推导；</li>
+                    <li>对全局组件使用前往定义（Goto Definition）时跳过类型声明文件，直接导航到组件文件等。</li>
+                </ol>
+                <p>以及大量的错误修复与代码重构，致力于为用户提供更好的开发体验。</p>
             </project-experience>
             <project-experience
                 name="plain-shiki"
@@ -56,9 +64,9 @@
                 from="2024.08"
                 link="https://github.com/KazariEX/plain-shiki"
             >
-                使用 Shiki + CSS Custom Highlight API，对纯文本容器中的代码文字进行高亮显示。<br />
-                搭配 contenteditable="plaintext-only" 可实现最轻量的代码编辑器。<br />
-                采用 Diff 算法确保正确的最小化更新，显著优化编辑大段代码时的性能。
+                <p>使用 Shiki + CSS Custom Highlight API，对纯文本容器中的代码文字进行高亮显示。</p>
+                <p>搭配 contenteditable="plaintext-only" 可实现最轻量的代码编辑器。</p>
+                <p>采用 Diff 算法确保正确的最小化更新，显著优化编辑大段代码时的性能。</p>
             </project-experience>
             <project-experience
                 name="maestrale"
@@ -66,9 +74,9 @@
                 from="2023.11"
                 link="https://github.com/KazariEX/maestrale"
             >
-                响应式数据驱动的游戏数值模拟工具，主要用于模拟碧蓝航线中舰船面板属性的计算、编队配置等。可调整舰船的等级、突破等级、好感、强化值、改造进度等所有参与白值运算的数值，可携带装备与兵装，可自由调整舰队科技提供的属性值，并实时计算舰船的最终面板。<br />
-                基于 Vue Reactivity API 封装数据结构，实现核心与视图的解耦。<br />
-                设计序列化响应式数据的算法，确保用户数据的持久化存储。
+                <p>响应式数据驱动的游戏数值模拟工具，主要用于模拟碧蓝航线中舰船面板属性的计算、编队配置等。可调整舰船的等级、突破等级、好感、强化值、改造进度等所有参与白值运算的数值，可携带装备与兵装，可自由调整舰队科技提供的属性值，并实时计算舰船的最终面板。</p>
+                <p>基于 Vue Reactivity API 封装数据结构，实现核心与视图的解耦。</p>
+                <p>设计互相嵌套与引用、包含响应式属性的数据的序列化算法，确保用户数据的持久化存储。</p>
             </project-experience>
         </article-section>
     </article>
