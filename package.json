@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.4.1",
+  "scripts": {
+    "dev": "nuxi dev --no-qr",
+    "generate": "nuxi generate",
+    "prepare": "nuxi prepare",
+    "preview": "nuxi preview",
+    "eslint": "eslint .",
+    "stylelint": "stylelint **/*.{vue,scss}"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.1.1",
+    "@nuxt/icon": "^1.10.3",
+    "@unocss/nuxt": "66.1.0-beta.3",
+    "@zinkawaii/eslint-config": "^0.1.10",
+    "@zinkawaii/stylelint-config": "^0.3.0",
+    "eslint": "^9.19.0",
+    "nuxt": "^3.15.4",
+    "sass": "^1.85.1",
+    "stylelint": "^16.14.1",
+    "unocss": "66.1.0-beta.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild"
+    ]
+  }
+}

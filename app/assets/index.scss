@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    color-scheme: light dark;
+}
+
+p {
+    line-height: 1.616em;
+}
