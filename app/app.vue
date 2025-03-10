@@ -1,3 +1,12 @@
+<script lang="ts" setup>
+    useHead({
+        link: [
+            { rel: "icon", href: "https://bikari.top/image/favicon.ico" }
+        ],
+        title: "简历 - 微光档案"
+    });
+</script>
+
 <template>
     <article
         max-w="176"
