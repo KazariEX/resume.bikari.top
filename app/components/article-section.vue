@@ -7,8 +7,7 @@
 <template>
     <section>
         <h2
-            m="t-2 b-4"
-            b-b="1 solid slate-300"
+            m="t-2"
             leading="12"
             text="6"
         >{{ title }}</h2>

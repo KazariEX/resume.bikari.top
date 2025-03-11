@@ -17,10 +17,8 @@
         <header>
             <h1
                 m="b-4"
-                p="b-4"
-                b-b="1 solid slate-300"
-                leading="12"
-                text="10 center"
+                leading="10"
+                text="8 center"
             >葛</h1>
             <ul columns="2 lt-sm:1">
                 <header-item title="GitHub" icon="fa6-brands:github">
@@ -56,6 +54,7 @@
                 name="vuejs/language-tools"
                 role="核心贡献者"
                 from="2024.08"
+                :toolings="[`TypeScript`, `Volar.js`, `Vue.js`]"
                 link="https://github.com/vuejs/language-tools"
             >
                 <p>Vue.js 官方语言工具，为 VSCode、WebStorm 等代码编辑器提供语言服务器支持。</p>
@@ -72,6 +71,7 @@
                 name="plain-shiki"
                 role="创建者"
                 from="2024.08"
+                :toolings="[`TypeScript`, `CSS`]"
                 link="https://github.com/KazariEX/plain-shiki"
             >
                 <p>使用 Shiki + CSS Custom Highlight API，对纯文本容器中的代码文字进行高亮显示。</p>
@@ -82,9 +82,10 @@
                 name="maestrale"
                 role="创建者"
                 from="2023.11"
+                :toolings="[`TypeScript`, `Vue.js`]"
                 link="https://github.com/KazariEX/maestrale"
             >
-                <p>响应式数据驱动的游戏数值模拟工具，主要用于模拟碧蓝航线中舰船面板属性的计算、编队配置等。可调整舰船的等级、突破等级、好感、强化值、改造进度等所有参与白值运算的数值，可携带装备与兵装，可自由调整舰队科技提供的属性值，并实时计算舰船的最终面板。</p>
+                <p>响应式数据驱动的游戏数值模拟工具，主要用于模拟碧蓝航线中舰船面板属性的计算、编队配置等。</p>
                 <p>基于 Vue Reactivity API 封装数据结构，实现核心与视图的解耦。</p>
                 <p>设计互相嵌套与引用、包含响应式属性的数据的序列化算法，确保用户数据的持久化存储。</p>
             </project-experience>
