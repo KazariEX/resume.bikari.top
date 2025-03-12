@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     future: {
         compatibilityVersion: 4
     },
-    ssr: false,
     modules: [
         "@nuxt/icon",
         "@unocss/nuxt"
