@@ -9,7 +9,8 @@
     box-sizing: border-box;
 }
 
-html {
+:root {
+    font-family: system-ui, sans-serif;
     color-scheme: light dark;
 }
 

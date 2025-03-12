@@ -20,9 +20,9 @@
                 leading="10"
                 text="8 center"
             >葛</h1>
-            <ul columns="2 lt-sm:1">
+            <ul columns="sm:2">
                 <header-item title="GitHub" icon="fa6-brands:github">
-                    KazariEX
+                    <external-link to="https://github.com/KazariEX">KazariEX</external-link>
                 </header-item>
                 <header-item title="邮箱" icon="fa6-solid:envelope">
                     <external-link to="mailto:zinkawaii@qq.com">zinkawaii@qq.com</external-link>
@@ -59,7 +59,7 @@
             >
                 <p>Vue.js 官方语言工具，为 VSCode、WebStorm 等代码编辑器提供语言服务器支持。</p>
                 <p>持续为 Vue.js 的核心功能贡献类型相关的特性与修复，如：</p>
-                <ol m="l-4">
+                <ol m="l-4" text="slate-600 @dark:slate">
                     <li>使用解构属性（Destructured Props）时的嵌入提示；</li>
                     <li>指令及其参数与修饰符的智能提示和类型检查；</li>
                     <li><code>$attrs</code> <code>$el</code> 等模板内特殊变量、<code>useCssModule</code> 等可组合项的自动类型推导；</li>
@@ -82,7 +82,7 @@
                 name="maestrale"
                 role="创建者"
                 from="2023.11"
-                :toolings="[`TypeScript`, `Vue.js`]"
+                :toolings="[`TypeScript`, `Nuxt`, `Vue.js`]"
                 link="https://github.com/KazariEX/maestrale"
             >
                 <p>响应式数据驱动的游戏数值模拟工具，主要用于模拟碧蓝航线中舰船面板属性的计算、编队配置等。</p>

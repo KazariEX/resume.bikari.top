@@ -20,12 +20,13 @@
 </script>
 
 <template>
-    <li
-        flex="inline items-center gap-0.5"
-        m="[&+&]:l-2"
-        text="3"
-    >
-        <iconify un-size="3.5" :name="toolings[name]"/>
+    <span m="r-2" text="3 nowrap">
+        <iconify
+            un-size="3.5"
+            m="r-0.5"
+            vertical="text-bottom"
+            :name="toolings[name]"
+        />
         <span>{{ name }}</span>
-    </li>
+    </span>
 </template>
